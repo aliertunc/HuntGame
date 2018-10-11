@@ -218,6 +218,6 @@ function stopGame() {
     gameover = true;
     $('#game').css({ 'display': 'none' });
     // $("p:first").addClass("intro");
-    $('#main').css({ 'background-image': 'url(images/gameover.png)' })
-        // .css({ 'background-image': 'url(1.jpg)' })
+    $('#main').css({ 'background-image': 'url(images/gameover.png)' });
+    // .css({ 'background-image': 'url(1.jpg)' })
 }
